@@ -1,8 +1,12 @@
 import * as React from "react";
+import { BrowserRouter, Route, Routes } from "react-router";
+import HomePage from "~pages/HomePage/HomePage.js";
+import "./App.css";
 
 export default () => (
-    <>
-        <h1>Welcome to React Vite Micro App!</h1>
-        <p>Hard to get more minimal than this React app.</p>
-    </>
+    <BrowserRouter>
+        <Routes>
+            <Route index element={<HomePage />} />
+        </Routes>
+    </BrowserRouter>
 );
