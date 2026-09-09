@@ -3,10 +3,14 @@ import "./HomePage.css";
 
 const HomePage = () => {
     return (
-        <div>
-            <p>Hello, I'm</p>
-            <h1>Jenn Adams</h1>
-            <p>This is my portfolio.</p>
+        <div id="home">
+            <div id="intro" className="content">
+                <p>Hello, my name is</p>
+                <h1>Jenn Adams</h1>
+                <p>I'm a software engineer specializing in full stack web development.</p>
+            </div>
+            <div id="skills" className="content">
+            </div>
         </div>
     );
 };
