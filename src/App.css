@@ -1,4 +1,17 @@
+:root {
+    --primary-bg-color: #131017;
+    --primary-text-color: #f6f0f9;
+    --secondary-bg-color: #3c274e;
+    --highlight-color: #503568;
+}
+
 body {
     font-family: 'Montserrat Variable', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
     margin: 0;
+}
+
+a {
+    color: var(--primary-text-color);
 }

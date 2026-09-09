@@ -1,0 +1,30 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-bottom: solid 2px var(--highlight-color);
+    box-sizing: border-box;
+}
+
+#title {
+    padding: 1rem;
+}
+
+a.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 5rem;
+    padding: 1rem;
+}
+
+a.nav-link:hover {
+    background-color: var(--secondary-bg-color);
+}
+
+a.nav-link.active {
+    background-color: var(--highlight-color);
+}
