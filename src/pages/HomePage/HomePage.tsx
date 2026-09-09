@@ -1,4 +1,6 @@
 import * as React from "react";
+import TechIcon from "~components/TechIcon/TechIcon.js";
+import { TechIconList } from "~constants/index.js";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -10,6 +12,10 @@ const HomePage = () => {
                 <p>I'm a software engineer specializing in full stack web development.</p>
             </div>
             <div id="skills" className="content">
+                {TechIconList.map((props, index) => {
+                    const key = `tech-icon-${index}`;
+                    return <TechIcon key={key} {...props} />
+                })}
             </div>
         </div>
     );
