@@ -4,7 +4,7 @@ import "./Page.css";
 
 const Page = () => {
     return (
-        <div id="main">
+        <div id="page">
             <div id="header">
                 <div id="title">Jenn Adams</div>
                 <nav id="nav">
