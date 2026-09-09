@@ -1,12 +1,12 @@
 import * as React from "react";
-import { NavLink, Outlet } from "react-router";
+import { Link, NavLink, Outlet } from "react-router";
 import "./Page.css";
 
 const Page = () => {
     return (
         <div id="page">
             <div id="header">
-                <div id="title">Jenn Adams</div>
+                <Link id="title" to="/">Jenn Adams</Link>
                 <nav id="nav">
                     <NavLink className="nav-link" to="/">Home</NavLink>
                     <NavLink className="nav-link" to="/about">About</NavLink>

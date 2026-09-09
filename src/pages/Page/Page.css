@@ -22,9 +22,12 @@
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+}
+
 a.nav-link {
     display: inline-block;
-    text-decoration: none;
     text-align: center;
     width: 5rem;
     padding: 1rem;
