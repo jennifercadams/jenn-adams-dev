@@ -1,25 +1,46 @@
 #home {
     display: flex;
+    justify-content: space-between;
     flex-grow: 1;
-    padding: 0 16px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 24px;
 }
 
 .content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     padding-bottom: 3rem;
 }
 
-.content p, .content h1 {
-    margin: 0;
-    padding: 1rem 0;
+#intro {
+    flex-direction: column;
+    padding-right: 24px;
 }
 
-.content p {
+#intro p, #intro h1 {
+    margin: 0;
+}
+
+#intro .small-text {
+    font-size: 1rem;
+    padding: 0;
+}
+
+#intro p {
     font-size: 1.5rem;
 }
 
-.content h1 {
+#intro h1 {
     font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+#skills {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
+    max-width: 40%;
+    font-size: 0.75rem;
 }
