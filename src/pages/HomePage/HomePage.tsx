@@ -8,8 +8,8 @@ const HomePage = () => {
         <div id="home">
             <div id="intro" className="content">
                 <p className="small-text">Hello, my name is</p>
-                <h1>Jenn Adams</h1>
-                <p>I'm a software engineer specializing in full stack web development.</p>
+                <p className="large-text">Jenn Adams</p>
+                <p className="medium-text">I'm a software engineer specializing in full stack web development.</p>
             </div>
             <div id="skills" className="content">
                 {TechIconList.map((props, index) => {
