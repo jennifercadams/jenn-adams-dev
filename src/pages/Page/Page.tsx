@@ -9,9 +9,9 @@ const Page = () => {
                 <div id="title">Jenn Adams</div>
                 <nav id="nav">
                     <NavLink className="nav-link" to="/">Home</NavLink>
-                    <NavLink className="nav-link" to="/About">About</NavLink>
-                    <NavLink className="nav-link" to="/Projects">Projects</NavLink>
-                    <NavLink className="nav-link" to="/Contact">Contact</NavLink>
+                    <NavLink className="nav-link" to="/about">About</NavLink>
+                    <NavLink className="nav-link" to="/projects">Projects</NavLink>
+                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
                 </nav>
             </div>
             <Outlet />
