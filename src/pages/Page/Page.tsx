@@ -2,11 +2,15 @@ import * as React from "react";
 import { Link, NavLink, Outlet } from "react-router";
 import "./Page.css";
 
-const Page = () => {
+export type PageProps = {
+    title: string;
+};
+
+const Page = ({ title }: PageProps) => {
     return (
         <div id="page">
             <div id="header">
-                <Link id="title" to="/">Jenn Adams</Link>
+                <Link id="title" to="/">{title}</Link>
                 <nav id="nav">
                     <NavLink className="nav-link" to="/">Home</NavLink>
                     <NavLink className="nav-link" to="/about">About</NavLink>

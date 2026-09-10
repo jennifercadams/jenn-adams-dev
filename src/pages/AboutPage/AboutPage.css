@@ -23,3 +23,7 @@
     height: 100%;
     max-width: 360px;
 }
+
+#text a:hover {
+    color: var(--secondary-text-color);
+}

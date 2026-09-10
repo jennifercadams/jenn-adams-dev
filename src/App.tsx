@@ -5,16 +5,20 @@ import ContactPage from "~pages/ContactPage/ContactPage.js";
 import HomePage from "~pages/HomePage/HomePage.js";
 import Page from "~pages/Page/Page.js";
 import ProjectsPage from "~pages/ProjectsPage/ProjectsPage.js";
+import WednesdayPage from "~pages/WednesdayPage/WednesdayPage.js";
 import "./App.css";
 
 export default () => (
     <BrowserRouter>
         <Routes>
-            <Route element={<Page />}>
+            <Route element={<Page title="Jenn Adams" />}>
                 <Route index element={<HomePage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+            </Route>
+            <Route element={<Page title="Wednesday Adams" />}>
+                <Route path="/wednesday" element={<WednesdayPage />} />
             </Route>
         </Routes>
     </BrowserRouter>
