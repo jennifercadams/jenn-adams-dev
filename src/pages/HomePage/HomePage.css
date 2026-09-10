@@ -12,40 +12,40 @@
     justify-content: center;
 }
 
-#intro {
+#home #intro {
     flex-direction: column;
     padding-right: 24px;
 }
 
-#intro::before {
+#home #intro::before {
     content: "";
     flex: 40;
 }
 
-#intro::after {
+#home #intro::after {
     content: "";
     flex: 60
 }
 
-#intro p {
+#home #intro p {
     margin: 0;
 }
 
-p.small-text {
+#home p.small-text {
     font-size: 1rem;
     padding: 0;
 }
 
-p.medium-text {
+#home p.medium-text {
     font-size: 1.5rem;
 }
 
-p.large-text {
+#home p.large-text {
     font-size: 2.5rem;
     padding: 1rem 0;
 }
 
-#skills {
+#home #skills {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
