@@ -15,7 +15,7 @@
 }
 
 #title {
-    padding: 1rem;
+    padding: 16px;
 }
 
 #nav {
@@ -30,7 +30,7 @@ a.nav-link {
     display: inline-block;
     text-align: center;
     width: 5rem;
-    padding: 1rem;
+    padding: 16px;
 }
 
 a.nav-link:hover {
