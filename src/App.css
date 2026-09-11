@@ -15,6 +15,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
     background-image: radial-gradient(circle at 20% 40%, var(--secondary-bg-color) 0%, transparent 20%);
+    background-repeat: no-repeat;
     margin: 0;
 }
 

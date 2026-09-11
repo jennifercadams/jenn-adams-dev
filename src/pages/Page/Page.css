@@ -14,11 +14,11 @@
     box-sizing: border-box;
 }
 
-#title {
+#header #title {
     padding: 16px;
 }
 
-#nav {
+#header #nav {
     font-weight: bold;
 }
 
@@ -26,17 +26,32 @@
     text-decoration: none;
 }
 
-a.nav-link {
+#header a.nav-link {
     display: inline-block;
     text-align: center;
     width: 5rem;
     padding: 16px;
 }
 
-a.nav-link:hover {
+#header a.nav-link:hover {
     background-color: var(--secondary-highlight-color);
 }
 
-a.nav-link.active {
+#header a.nav-link.active {
     background-color: var(--primary-highlight-color);
+}
+
+@media (max-width: 540px) {
+    #header #title {
+        display: none;
+    }
+
+    #header {
+        display: inline-block;
+    }
+
+    #header #nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }

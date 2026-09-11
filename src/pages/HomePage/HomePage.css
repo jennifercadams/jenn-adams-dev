@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    gap: 24px;
     max-width: 1200px;
     margin: auto;
     padding: 0 24px;
@@ -14,7 +15,6 @@
 
 #home #intro {
     flex-direction: column;
-    padding-right: 24px;
 }
 
 #home p.small-text {
@@ -62,4 +62,37 @@
     gap: 10px;
     max-width: 40%;
     font-size: 0.75rem;
+}
+
+@media (max-width: 800px) {
+    #home {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 16px 0 0;
+    }
+
+    #home #skills {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    #home #intro {
+        text-align: center;
+    }
+
+    #home p.medium-text {
+        font-size: 1.25rem;
+    }
+
+    #home #connect {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #home #connect .icon {
+        width: 44px;
+        margin: 16px;
+    }
 }

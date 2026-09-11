@@ -67,3 +67,9 @@
     box-shadow: 0px 3px var(--disabled-bg-color);
     transform: translate(0, 1px);
 }
+
+@media (max-width: 500px) {
+    #wednesday #image {
+        flex: 1 1 calc((100vw - 32px) * 1.25);
+    }
+}
