@@ -45,13 +45,14 @@
     vertical-align: 1px;
 }
 
-#home #connect a {
-    height: 32px;
-}
-
 #home #connect .icon {
     width: 32px;
     margin-right: 16px;
+    transition: 300ms;
+}
+
+#home #connect .icon:hover {
+    transform: scale(1.2);
 }
 
 #home #skills {
