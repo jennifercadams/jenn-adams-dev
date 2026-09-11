@@ -42,6 +42,28 @@
     margin: 16px 0;
 }
 
+#home #connect {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 24px 0 0;
+}
+
+#home #connect #arrow {
+    font-family: monospace;
+    padding: 0 8px 0 4px;
+    vertical-align: 1px;
+}
+
+#home #connect a {
+    height: 32px;
+}
+
+#home #connect .icon {
+    width: 32px;
+    margin-right: 16px;
+}
+
 #home #skills {
     flex-direction: row;
     flex-wrap: wrap;
