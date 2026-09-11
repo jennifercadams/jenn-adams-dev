@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./ProjectWrapper.css"
 
 export type ProjectWrapperProps = {
     title: string,
