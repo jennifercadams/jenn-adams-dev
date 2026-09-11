@@ -1,0 +1,9 @@
+iframe {
+    display: block;
+    width: 960px;
+    height: 582px;
+    margin: 16px auto;
+    border: none;
+    background: var(--primary-bg-color);
+    background: linear-gradient(180deg, var(--primary-bg-color) 0%, var(--primary-text-color) 100%);
+}
