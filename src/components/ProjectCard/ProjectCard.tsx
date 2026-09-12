@@ -15,10 +15,10 @@ export type ProjectCardProps = {
 const ProjectCard = (props: ProjectCardProps) => {
     return (
         <div className="project-card">
-            <div className="image content">
+            <div className="image">
                 <img src={props.imgSrc}/>
             </div>
-            <div className="info content">
+            <div className="info">
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
                 <div className="buttons">
