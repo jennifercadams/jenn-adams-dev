@@ -17,7 +17,7 @@ const WednesdayPage = () => {
                 <div id="image">
                     <img id="current" src={currentImagePath} />
                 </div>
-                <div id="buttons">
+                <div className="buttons">
                     <button id="prev" onClick={handleClickPrev} disabled={index == 0}>{"<"}</button>
                     <button id="next" onClick={handleClickNext} disabled={index == gallerySize - 1}>{">"}</button>
                 </div>

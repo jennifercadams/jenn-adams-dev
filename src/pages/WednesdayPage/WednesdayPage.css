@@ -28,44 +28,10 @@
     max-height: 100%;
 }
 
-#wednesday #buttons {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 48px;
-    gap: 32px;
-    width: 100%;
-}
-
 #wednesday button {
-    flex: 1 1;
     max-width: 160px;
     font-family: monospace;
     font-size: 32px;
-    background-color: var(--primary-highlight-color);
-    color: var(--primary-text-color);
-    border: 1px outset var(--secondary-bg-color);
-    border-radius: 5px;
-    box-shadow: -1px 4px var(--secondary-bg-color);
-}
-
-#wednesday button:hover {
-    background-color: var(--secondary-highlight-color);
-}
-
-#wednesday button:active {
-    border-style: inset;
-    box-shadow: 0px 2px var(--secondary-bg-color);
-    transform: translate(0, 2px);
-}
-
-#wednesday button:hover:disabled, 
-#wednesday button:active:disabled, 
-#wednesday button:disabled {
-    background-color: var(--disabled-highlight-color);
-    color: var(--disabled-text-color);
-    border: 1px outset var(--disabled-bg-color);
-    box-shadow: 0px 3px var(--disabled-bg-color);
-    transform: translate(0, 1px);
 }
 
 @media (max-width: 500px) {
