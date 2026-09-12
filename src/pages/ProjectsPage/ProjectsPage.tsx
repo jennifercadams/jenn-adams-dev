@@ -19,6 +19,14 @@ const ProjectsPage = () => {
                 action="Play"
                 actionPath="/projects/flatrick"
             />
+            <ProjectCard
+                imgSrc="./src/assets/images/RandomAstronomyPhoto.jpg"
+                title="Random Astronomy Photo"
+                description="A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API."
+                action="Visit"
+                externalUrl="https://jennifercadams.github.io/Random-Astronomy-Photo/"
+                codeUrl="https://github.com/jennifercadams/Random-Astronomy-Photo"
+            />
         </div>
     );
 };
