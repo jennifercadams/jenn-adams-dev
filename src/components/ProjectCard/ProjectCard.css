@@ -1,7 +1,6 @@
 .project-card {
     display: flex;
     flex-direction: column;
-    height: 100%;
     background-color: var(--tertiary-bg-color);
     border: outset 4px var(--secondary-bg-color);
     border-radius: 5px;
@@ -15,8 +14,8 @@
 .project-card .info {
     display: flex;
     flex-direction: column;
-    flex: 100%;
     width: 360px;
+    height: 192px;
     padding: 0 16px 16px;
 }
 
