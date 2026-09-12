@@ -12,6 +12,13 @@ const ProjectsPage = () => {
                 action="Play"
                 actionPath="/projects/lander-game"
             />
+            <ProjectCard
+                imgSrc="./src/assets/images/FlatrickSplashImage.jpg"
+                title="The Adventures of Flatrick"
+                description="A line segment named Flatrick goes on an amazing journey into two dimensions. A short demo created in Unity for a game jam."
+                action="Play"
+                actionPath="/projects/flatrick"
+            />
         </div>
     );
 };

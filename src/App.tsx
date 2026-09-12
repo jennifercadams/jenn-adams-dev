@@ -22,6 +22,13 @@ export default () => (
                         cssSrc="./../src/projects/styles/WebGLiframe.css"
                     />
                 }/>
+                <Route path="/projects/flatrick" element={
+                    <ProjectWrapper
+                        title="The Adventures of Flatrick" 
+                        htmlSrc="./../src/projects/Flatrick/Flatrick.html" 
+                        cssSrc="./../src/projects/styles/WebGLiframe.css"
+                    />
+                }/>
             </Route>
             <Route element={<Page title="Wednesday Adams" />}>
                 <Route path="/wednesday" element={<WednesdayPage />} />
