@@ -28,7 +28,7 @@
     max-height: 100%;
 }
 
-#wednesday button {
+#wednesday button.ui-button {
     max-width: 160px;
     font-family: monospace;
     font-size: 32px;

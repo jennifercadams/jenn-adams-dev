@@ -1,6 +1,7 @@
 :root {
     --primary-bg-color: #131017;
     --secondary-bg-color: #3c274edb;
+    --tertiary-bg-color: #3c274e69;
     --disabled-bg-color: #3b3144;
     --primary-text-color: #f6f0f9;
     --secondary-text-color: #e8bbff;
@@ -31,7 +32,7 @@ a {
     width: 100%;
 }
 
-button {
+.ui-button {
     flex: 1 1;
     background-color: var(--primary-highlight-color);
     font-family: 'Montserrat Variable', sans-serif;
@@ -41,19 +42,19 @@ button {
     box-shadow: -1px 4px var(--secondary-bg-color);
 }
 
-button:hover {
+.ui-button:hover {
     background-color: var(--secondary-highlight-color);
 }
 
-button:active {
+.ui-button:active {
     border-style: inset;
     box-shadow: 0px 2px var(--secondary-bg-color);
     transform: translate(0, 2px);
 }
 
-button:hover:disabled, 
-button:active:disabled, 
-button:disabled {
+.ui-button:hover:disabled, 
+.ui-button:active:disabled, 
+.ui-button:disabled {
     background-color: var(--disabled-highlight-color);
     color: var(--disabled-text-color);
     border: 1px outset var(--disabled-bg-color);
