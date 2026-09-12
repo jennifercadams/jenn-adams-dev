@@ -9,7 +9,7 @@ export type TechIconProps = {
 const TechIcon = (props: TechIconProps) => {
     return (
         <div className="tech-icon">
-            <img className="tech-icon-img" src={`./src/assets/icons/${props.fileName}`}></img>
+            <img className="tech-icon-img" src={`/assets/icons/${props.fileName}`}></img>
             <label className="tech-icon-label">{props.label}</label>
         </div>
     );

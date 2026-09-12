@@ -17,13 +17,13 @@ const HomePage = () => {
                     </p>
                     <div id="icon-container">
                         <a href="https://www.linkedin.com/in/jenn-adams-dev/" target="_blank" rel="noopener noreferrer">
-                            <img className="icon" src="./src/assets/icons/linkedin.png" />
+                            <img className="icon" src="/assets/icons/linkedin.png" />
                         </a>
                         <a href="https://github.com/jennifercadams/" target="_blank" rel="noopener noreferrer">
-                            <img className="icon" src="./src/assets/icons/github.png" />
+                            <img className="icon" src="/assets/icons/github.png" />
                         </a>
                         <a href="mailto:contact@jennadams.dev">
-                            <img className="icon" src="./src/assets/icons/email.png" />
+                            <img className="icon" src="/assets/icons/email.png" />
                         </a>
                     </div>
                 </div>

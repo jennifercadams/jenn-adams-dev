@@ -12,7 +12,7 @@ const AboutPage = () => {
                 <p>In my personal life, I enjoy reading, writing, video games, TTRPGs, baking, and spending time with my dog <Link to="/wednesday">Wednesday</Link>.</p>
             </div>
             <div id="image">
-                <img src="./src/assets/images/code-speech-bubble.svg" />
+                <img src="/assets/images/code-speech-bubble.svg" />
             </div>
         </div>
     );

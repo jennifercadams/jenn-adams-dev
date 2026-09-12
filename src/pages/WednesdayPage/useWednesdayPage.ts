@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const gallerySize: number = 26;
 const imagePaths: string[]  = [];
 for (let i = 1; i <= gallerySize; i++) {
-    var path = `./src/assets/images/Wednesday${i.toString().padStart(2, "0")}.jpg`;
+    var path = `/assets/images/Wednesday${i.toString().padStart(2, "0")}.jpg`;
     imagePaths.push(path);
 };
 

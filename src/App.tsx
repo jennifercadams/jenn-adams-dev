@@ -18,15 +18,15 @@ export default () => (
                 <Route path="/projects/lander-game" element={
                     <ProjectWrapper
                         title="Lander Game" 
-                        htmlSrc="./../src/projects/LanderGame/LanderGame.html" 
-                        cssSrc="./../src/projects/styles/WebGLiframe.css"
+                        htmlSrc="/projects/LanderGame/LanderGame.html" 
+                        cssSrc="/projects/styles/WebGLiframe.css"
                     />
                 }/>
                 <Route path="/projects/flatrick" element={
                     <ProjectWrapper
                         title="The Adventures of Flatrick" 
-                        htmlSrc="./../src/projects/Flatrick/Flatrick.html" 
-                        cssSrc="./../src/projects/styles/WebGLiframe.css"
+                        htmlSrc="/projects/Flatrick/Flatrick.html" 
+                        cssSrc="/projects/styles/WebGLiframe.css"
                     />
                 }/>
             </Route>
