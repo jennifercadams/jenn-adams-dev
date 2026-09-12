@@ -7,8 +7,9 @@ export type ProjectCardProps = {
     title: string,
     description: string,
     action: string,
-    actionPath: string,
-    codePath?: string
+    actionPath?: string,
+    codeUrl?: string,
+    externalUrl?: string
 };
 
 const ProjectCard = (props: ProjectCardProps) => {
@@ -21,9 +22,14 @@ const ProjectCard = (props: ProjectCardProps) => {
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
                 <div className="buttons">
-                    <Link className="ui-button" to={props.actionPath}>{props.action}</Link>
-                    {props.codePath && 
-                        <a className="ui-button" href={props.codePath} target="_blank" rel="noopener noreferrer">
+                    {props.actionPath && <Link className="ui-button" to={props.actionPath}>{props.action}</Link>}
+                    {props.externalUrl && 
+                        <a className="ui-button" href={props.externalUrl} target="_blank" rel="noopener noreferrer">
+                            {props.action}
+                        </a>
+                    }
+                    {props.codeUrl && 
+                        <a className="ui-button" href={props.codeUrl} target="_blank" rel="noopener noreferrer">
                             Code
                         </a>
                     }
