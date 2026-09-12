@@ -19,7 +19,7 @@ export default () => (
                     <ProjectWrapper
                         title="Lander Game" 
                         htmlSrc="./../src/projects/LanderGame/LanderGame.html" 
-                        cssSrc="./../src/projects/LanderGame/LanderGame.css"
+                        cssSrc="./../src/projects/styles/WebGLiframe.css"
                     />
                 }/>
             </Route>
