@@ -6,6 +6,14 @@ const ProjectsPage = () => {
     return (
         <div id="projects">
             <ProjectCard
+                imgSrc="./src/assets/images/SuperTicTacToe.jpg"
+                title="Super Tic Tac Toe"
+                description="A tic tac toe game of tic tac toe games with local pass and play, human vs. bot, and online multiplayer game modes."
+                action="Play"
+                externalUrl="https://super-tic-tac-toe-skai.onrender.com/"
+                codeUrl="https://github.com/jennifercadams/super-tic-tac-toe"
+            />
+            <ProjectCard
                 imgSrc="./src/assets/images/LanderGameTitle.jpg"
                 title="Lander Game"
                 description="A simple Lunar Lander clone built in Unity with procedural 2D terrain generation."
