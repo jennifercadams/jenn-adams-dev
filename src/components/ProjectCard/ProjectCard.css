@@ -40,3 +40,19 @@
     text-align: center;
     padding: 6px;
 }
+
+@media (max-width: 871px) {
+    .project-card .info {
+        height: unset;
+    }
+}
+
+@media (max-width: 432px) {
+    .project-card .image {
+        width: calc(100vw - 64px);
+    }
+
+    .project-card .info {
+        width: calc(100vw - 64px);
+    }
+}
