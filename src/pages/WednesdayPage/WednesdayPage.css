@@ -1,7 +1,7 @@
 #wednesday {
     display: flex;
     gap: 32px;
-    margin-top: 24px;
+    margin: 24px auto 0;
     padding: 0 16px 24px;
 }
 
@@ -20,7 +20,7 @@
     align-items: center;
     gap: 24px;
     max-height: calc(100vh - 124px);
-    max-width: 625px;
+    width: 625px;
     margin: 0 auto;
 }
 
@@ -57,5 +57,10 @@
 
     #wednesday #description {
         width: unset;
+    }
+
+    #wednesday #gallery {
+        width: unset;
+        max-width: 625px;
     }
 }
