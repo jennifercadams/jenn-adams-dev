@@ -1,15 +1,14 @@
 #wednesday {
     display: flex;
-    gap: 32px;
-    margin: 24px auto 0;
-    padding: 0 16px 24px;
+    margin: auto;
+    background-color: var(--tertiary-bg-color);
 }
 
 #wednesday #description {
     width: 300px;
     line-height: 1.8;
     padding: 0 32px;
-    background-color: var(--tertiary-bg-color);
+    background-color: var(--secondary-bg-color);
     border-radius: 5px;
 }
 
@@ -21,7 +20,10 @@
     gap: 24px;
     max-height: calc(100vh - 124px);
     width: 625px;
+    padding: 32px;
     margin: 0 auto;
+    border: solid 10px var(--secondary-bg-color);
+    border-radius: 5px;
 }
 
 #wednesday #image {
@@ -50,9 +52,13 @@
     }
 }
 
-@media (max-width: 1053px) {
+@media (max-width: 1072px) {
     #wednesday {
+        gap: 32px;
         flex-direction: column-reverse;
+        margin: 24px auto 0;
+        padding: 0 16px 24px;
+        background: none;
     }
 
     #wednesday #description {
@@ -62,5 +68,7 @@
     #wednesday #gallery {
         width: unset;
         max-width: 625px;
+        padding: 0;
+        border: none;
     }
 }
