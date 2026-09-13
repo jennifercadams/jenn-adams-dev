@@ -53,4 +53,10 @@
     .project-card .buttons {
         align-items: stretch;
     }
+
+    .project-card .ui-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
