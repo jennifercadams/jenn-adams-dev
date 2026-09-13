@@ -3,7 +3,7 @@
     align-items: flex-start;
     gap: 56px;
     max-width: 1300px;
-    margin: 0 auto;
+    margin: auto;
     padding: 24px;
     line-height: 1.8;
 }
