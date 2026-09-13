@@ -5,10 +5,14 @@ import "./ProjectsPage.css";
 const ProjectsPage = () => {
     return (
         <div id="projects">
+            <div id="description">
+                <h1>Projects</h1>
+                <p>I enjoy building things with code in my spare time. Below are some projects I have worked on, presented in chronological order from newest to oldest.</p>
+            </div>
             <ProjectCard
                 imgSrc="/assets/images/SuperTicTacToe.jpg"
                 title="Super Tic Tac Toe"
-                description="A tic tac toe game of tic tac toe games with local pass and play, human vs. bot, and online multiplayer game modes."
+                description="A tic tac toe game of tic tac toe games with local pass and play, human vs. bot, and online multiplayer game modes. Built with React, Node.js, and Socket.io."
                 action="Play"
                 externalUrl="https://super-tic-tac-toe-skai.onrender.com/"
                 codeUrl="https://github.com/jennifercadams/super-tic-tac-toe"
@@ -30,7 +34,7 @@ const ProjectsPage = () => {
             <ProjectCard
                 imgSrc="/assets/images/RandomAstronomyPhoto.jpg"
                 title="Random Astronomy Photo"
-                description="A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API."
+                description="My first React project: A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API."
                 action="Visit"
                 externalUrl="https://jennifercadams.github.io/Random-Astronomy-Photo/"
                 codeUrl="https://github.com/jennifercadams/Random-Astronomy-Photo"
