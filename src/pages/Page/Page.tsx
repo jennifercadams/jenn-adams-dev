@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link, NavLink, Outlet } from "react-router";
+import usePage from "./usePage.js";
 import "./Page.css";
 
 export type PageProps = {
@@ -7,6 +8,8 @@ export type PageProps = {
 };
 
 const Page = ({ title }: PageProps) => {
+    usePage();
+
     return (
         <div id="page">
             <div id="header">
