@@ -7,14 +7,14 @@
 }
 
 .project-card .image {
-    width: 360px;
+    width: 380px;
     padding: 16px 16px 0;
 }
 
 .project-card .info {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 380px;
     height: 100%;
     padding: 0 16px 16px;
 }
@@ -41,7 +41,7 @@
     padding: 6px;
 }
 
-@media (max-width: 432px) {
+@media (max-width: 468px) {
     .project-card .image {
         width: calc(100vw - 88px);
     }
