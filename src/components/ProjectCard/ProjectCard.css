@@ -49,4 +49,8 @@
     .project-card .info {
         width: calc(100vw - 88px);
     }
+
+    .project-card .buttons {
+        align-items: stretch;
+    }
 }

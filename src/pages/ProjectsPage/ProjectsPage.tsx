@@ -15,7 +15,7 @@ const ProjectsPage = () => {
                 description="A tic tac toe game of tic tac toe games with local pass and play, human vs. bot, and online multiplayer game modes. Built with React, Node.js, and Socket.io."
                 action="Play"
                 externalUrl="https://super-tic-tac-toe-skai.onrender.com/"
-                codeUrl="https://github.com/jennifercadams/super-tic-tac-toe"
+                monorepoUrl="https://github.com/jennifercadams/super-tic-tac-toe"
             />
             <ProjectCard
                 imgSrc="/assets/images/LanderGameTitle.jpg"
@@ -34,10 +34,10 @@ const ProjectsPage = () => {
             <ProjectCard
                 imgSrc="/assets/images/RandomAstronomyPhoto.jpg"
                 title="Random Astronomy Photo"
-                description="My first React project: A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API."
+                description="My first independent project: A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API. Built with React and deployed using GitHub Pages."
                 action="Visit"
                 externalUrl="https://jennifercadams.github.io/Random-Astronomy-Photo/"
-                codeUrl="https://github.com/jennifercadams/Random-Astronomy-Photo"
+                monorepoUrl="https://github.com/jennifercadams/Random-Astronomy-Photo"
             />
         </div>
     );
