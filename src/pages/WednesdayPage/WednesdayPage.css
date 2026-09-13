@@ -1,6 +1,16 @@
 #wednesday {
+    display: flex;
+    gap: 32px;
     margin-top: 24px;
-    padding: 0 16px;
+    padding: 0 16px 24px;
+}
+
+#wednesday #description {
+    width: 300px;
+    line-height: 1.8;
+    padding: 0 32px;
+    background-color: var(--tertiary-bg-color);
+    border-radius: 5px;
 }
 
 #wednesday #gallery {
@@ -37,5 +47,15 @@
 @media (max-width: 500px) {
     #wednesday #image {
         flex: 1 1 calc((100vw - 32px) * 1.25);
+    }
+}
+
+@media (max-width: 1053px) {
+    #wednesday {
+        flex-direction: column-reverse;
+    }
+
+    #wednesday #description {
+        width: unset;
     }
 }
