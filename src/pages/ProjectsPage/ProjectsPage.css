@@ -7,7 +7,7 @@
     padding: 24px;
 }
 
-#description {
+#projects #description {
     grid-column: 1 / -1;
 }
 
