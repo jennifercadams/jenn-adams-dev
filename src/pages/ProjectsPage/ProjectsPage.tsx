@@ -18,6 +18,17 @@ const ProjectsPage = () => {
                 monorepoUrl="https://github.com/jennifercadams/super-tic-tac-toe"
             />
             <ProjectCard
+                imgSrc="/assets/images/MultiWeather.jpg"
+                title="MultiWeather"
+                description="A simple web app that shows the local weather and time in multiple locations side by side. Built with React, ASP.NET Core, and Docker."
+                action="Visit"
+                externalUrl="https://multi-weather.onrender.com/"
+                frontEndRepoUrl="https://github.com/jennifercadams/Multi-Weather"
+                frontEndRepoLabel="React Code"
+                backEndRepoUrl="https://github.com/jennifercadams/distance-tools"
+                backEndRepoLabel="C# Code"
+            />
+            <ProjectCard
                 imgSrc="/assets/images/LanderGameTitle.jpg"
                 title="Lander Game"
                 description="A simple Lunar Lander clone built in Unity with procedural 2D terrain generation."
