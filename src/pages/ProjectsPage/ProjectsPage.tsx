@@ -45,7 +45,7 @@ const ProjectsPage = () => {
             <ProjectCard
                 imgSrc="/assets/images/RandomAstronomyPhoto.jpg"
                 title="Random Astronomy Photo"
-                description="My first independent project: A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API. Built with React and deployed using GitHub Pages."
+                description="My first independent project: A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API. Built with React."
                 action="Visit"
                 externalUrl="https://jennifercadams.github.io/Random-Astronomy-Photo/"
                 monorepoUrl="https://github.com/jennifercadams/Random-Astronomy-Photo"
