@@ -1,0 +1,26 @@
+#web-gl-wrapper iframe {
+    display: block;
+    width: 960px;
+    height: 582px;
+    margin: 16px auto;
+    border: none;
+    background: var(--primary-bg-color);
+    background: linear-gradient(180deg, var(--primary-bg-color) 0%, var(--primary-text-color) 100%);
+}
+
+#web-gl-wrapper #device-not-supported {
+    display: none;
+}
+
+@media (pointer: coarse) or (hover: none) or (max-width: 959px) or (max-height: 581px) {
+    #web-gl-wrapper iframe {
+        display: none;
+    }
+
+    #web-gl-wrapper #device-not-supported {
+        display: block;
+        max-width: 600px;
+        padding: 0 32px;
+        margin: 32px auto;
+    }
+}

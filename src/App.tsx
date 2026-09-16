@@ -4,7 +4,7 @@ import AboutPage from "~pages/AboutPage/AboutPage.js";
 import HomePage from "~pages/HomePage/HomePage.js";
 import Page from "~pages/Page/Page.js";
 import ProjectsPage from "~pages/ProjectsPage/ProjectsPage.js";
-import ProjectWrapper from "~components/ProjectWrapper/ProjectWrapper.js";
+import WebGLWrapper from "~components/WebGLWrapper/WebGLWrapper.js";
 import WednesdayPage from "~pages/WednesdayPage/WednesdayPage.js";
 import "./App.css";
 
@@ -16,17 +16,15 @@ export default () => (
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/projects/lander-game" element={
-                    <ProjectWrapper
+                    <WebGLWrapper
                         title="Lander Game" 
-                        htmlSrc="/projects/LanderGame/LanderGame.html" 
-                        cssSrc="/projects/styles/WebGLiframe.css"
+                        htmlSrc="/projects/LanderGame/LanderGame.html"
                     />
                 }/>
                 <Route path="/projects/flatrick" element={
-                    <ProjectWrapper
+                    <WebGLWrapper
                         title="The Adventures of Flatrick" 
-                        htmlSrc="/projects/Flatrick/Flatrick.html" 
-                        cssSrc="/projects/styles/WebGLiframe.css"
+                        htmlSrc="/projects/Flatrick/Flatrick.html"
                     />
                 }/>
             </Route>
