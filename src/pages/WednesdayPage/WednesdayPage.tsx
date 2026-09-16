@@ -13,7 +13,7 @@ const WednesdayPage = () => {
 
     return (
         <div id="wednesday">
-            <div id="description">
+            <div id="description" className="text-content">
                 <h1>Wednesday</h1>
                 <p>Wednesday is a six-year-old American Staffordshire Terrier mix. She is my best friend and a very experienced rubber duck.</p>
                 <p>She spent many hours at my side providing quiet moral support while I taught myself how to code. She remains a constant companion as I practice my skills and in many other aspects of my life.</p>

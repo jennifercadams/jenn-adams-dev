@@ -24,6 +24,10 @@ a {
     color: var(--primary-text-color);
 }
 
+.text-content {
+    line-height: 1.8;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
