@@ -28,9 +28,8 @@ export default () => (
                         htmlSrc="/projects/Flatrick/Flatrick.html"
                     />
                 }/>
-                <Route path="*" element={
-                    <NotFoundPage />
-                }/>
+                <Route path="/404" element={<NotFoundPage />} />
+                <Route path="*" element={<NotFoundPage />} />
             </Route>
             <Route element={<Page title="Wednesday Adams" />}>
                 <Route path="/wednesday" element={<WednesdayPage />} />
