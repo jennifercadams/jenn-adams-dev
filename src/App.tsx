@@ -2,6 +2,7 @@ import * as React from "react";
 import { BrowserRouter, Route, Routes } from "react-router";
 import AboutPage from "~pages/AboutPage/AboutPage.js";
 import HomePage from "~pages/HomePage/HomePage.js";
+import NotFoundPage from "~pages/NotFoundPage/NotFoundPage.js";
 import Page from "~pages/Page/Page.js";
 import ProjectsPage from "~pages/ProjectsPage/ProjectsPage.js";
 import WebGLWrapper from "~components/WebGLWrapper/WebGLWrapper.js";
@@ -26,6 +27,9 @@ export default () => (
                         title="The Adventures of Flatrick" 
                         htmlSrc="/projects/Flatrick/Flatrick.html"
                     />
+                }/>
+                <Route path="*" element={
+                    <NotFoundPage />
                 }/>
             </Route>
             <Route element={<Page title="Wednesday Adams" />}>
