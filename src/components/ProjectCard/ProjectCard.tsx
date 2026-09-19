@@ -1,9 +1,13 @@
 import * as React from "react";
-import "./ProjectCard.css";
 import { Link } from "react-router";
+import Lightbox from "~components/Lightbox/Lightbox.js";
+import "./ProjectCard.css";
+
+export type ImgBgColor = "dark" | "light";
 
 export type ProjectCardProps = {
     imgSrc: string,
+    imgBgColor: ImgBgColor,
     title: string,
     description: string,
     action: string,
@@ -20,7 +24,8 @@ const ProjectCard = (props: ProjectCardProps) => {
     return (
         <div className="project-card">
             <div className="image">
-                <img src={props.imgSrc}/>
+                <img src={props.imgSrc} />
+                <Lightbox imgSrc={props.imgSrc} imgBgColor={props.imgBgColor} />
             </div>
             <div className="info">
                 <h2>{props.title}</h2>

@@ -11,6 +11,7 @@ const ProjectsPage = () => {
             </div>
             <ProjectCard
                 imgSrc="/assets/images/SuperTicTacToe.jpg"
+                imgBgColor="light"
                 title="Super Tic Tac Toe"
                 description="A tic tac toe game of tic tac toe games with local pass and play, human vs. bot, and online multiplayer game modes. Built with React, Node.js, and Socket.io."
                 action="Play"
@@ -19,6 +20,7 @@ const ProjectsPage = () => {
             />
             <ProjectCard
                 imgSrc="/assets/images/MultiWeather.jpg"
+                imgBgColor="light"
                 title="MultiWeather"
                 description="A simple web app that shows the local weather and time in multiple locations side by side. Built with React, ASP.NET Core, and Docker."
                 action="Visit"
@@ -30,6 +32,7 @@ const ProjectsPage = () => {
             />
             <ProjectCard
                 imgSrc="/assets/images/LanderGameTitle.jpg"
+                imgBgColor="dark"
                 title="Lander Game"
                 description="A simple Lunar Lander clone built in Unity with procedural 2D terrain generation."
                 action="Play"
@@ -37,6 +40,7 @@ const ProjectsPage = () => {
             />
             <ProjectCard
                 imgSrc="/assets/images/FlatrickSplashImage.jpg"
+                imgBgColor="light"
                 title="The Adventures of Flatrick"
                 description="A line segment named Flatrick goes on an amazing journey into two dimensions. A short demo created in Unity for a game jam."
                 action="Play"
@@ -44,6 +48,7 @@ const ProjectsPage = () => {
             />
             <ProjectCard
                 imgSrc="/assets/images/RandomAstronomyPhoto.jpg"
+                imgBgColor="dark"
                 title="Random Astronomy Photo"
                 description="My first independent project: A web app that fetches astronomy photos randomly or by date using NASA's Astronomy Photo of the Day API. Built with React."
                 action="Visit"
