@@ -8,6 +8,7 @@
 
 .project-card .image {
     width: 380px;
+    height: 213.75px;
     padding: 16px 16px 0;
 }
 
@@ -44,6 +45,7 @@
 @media (max-width: 468px) {
     .project-card .image {
         width: calc(100vw - 88px);
+        height: calc((100vw - 88px) / (380 / 213.75));
     }
 
     .project-card .info {
