@@ -20,7 +20,7 @@ const ProjectsPage = () => {
             />
             <ProjectCard
                 imgSrc="/assets/images/MultiWeather.jpg"
-                imgBgColor="light"
+                imgBgColor="dark"
                 title="MultiWeather"
                 description="A simple web app that shows the local weather and time in multiple locations side by side. Built with React, ASP.NET Core, and Docker."
                 action="Visit"
